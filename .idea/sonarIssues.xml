@@ -103,6 +103,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/templates/greeting.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/templates/greeting.html">
           <value>
             <set />
@@ -139,6 +144,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/templates/main.mustache.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/templates/parts/common.html">
           <value>
             <set />
           </value>

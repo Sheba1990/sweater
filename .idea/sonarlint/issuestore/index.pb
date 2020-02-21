@@ -36,3 +36,5 @@ e
 sweater.iml,e\6\e6a4a5df3097f701145ddfcc5adf51b460c368ba
 x
 Hsrc/main/java/com/example/sweater/controller/RegistrationController.java,e\2\e2383ae4b4b27dc27691a2a94b8f2b23fe39ec08
+j
+:src/main/java/com/example/sweater/service/UserService.java,1\7\174708d8517a59ab57bf70de28a417e30836ae6a

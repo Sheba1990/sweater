@@ -13,7 +13,6 @@ import java.util.Map;
 
 @Controller
 public class RegistrationController {
-
     @Autowired
     private UserRepo userRepo;
 
@@ -24,14 +23,17 @@ public class RegistrationController {
 
     @PostMapping("/registration")
     public String addUser(User user, Map<String, Object> model) {
-        User userFromDB = userRepo.findByUsername(user.getUsername());
-        if (userFromDB != null) {
+        User userFromDb = userRepo.findByUsername(user.getUsername());
+
+        if (userFromDb != null) {
             model.put("message", "User exists!");
             return "registration";
         }
+
         user.setActive(true);
         user.setRoles(Collections.singleton(Role.USER));
         userRepo.save(user);
+
         return "redirect:/login";
     }
 }

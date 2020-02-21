@@ -3,8 +3,6 @@ b
 2src/main/java/com/example/sweater/Application.java,f\1\f16eb2c1a5b2153e9c6fc131a60e9948f24bbea3
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-i
-9src/main/java/com/example/sweater/GreetingController.java,9\5\954e9553eeff969ca7886439f09fb73068309f3f
 e
 5src/main/java/com/example/sweater/domain/Message.java,d\d\dd24e93eac953750d6a68ea5e6b3682ae14f271e
 Z
@@ -24,3 +22,17 @@ b
 2src/main/java/com/example/sweater/domain/User.java,e\3\e3030c884107f97d6c93ba1f80d9b9a5b5db9c4a
 o
 ?src/main/java/com/example/sweater/config/WebSecurityConfig.java,8\c\8c2b5f64bdb0951e85d01cabb0d22e9a88c13d87
+[
++src/main/resources/templates/login.mustache,9\d\9d5ed15d1b6da8366824ef171d3b2a00a2d5ec6e
+b
+2src/main/resources/templates/registration.mustache,1\d\1da0913b333ffbbaad4db5fce4086b27ac4e9517
+Y
+)src/main/resources/application.properties,0\6\06f65155ec73600b9fc5c4dc2883d4bb84d8e284
+p
+@src/main/java/com/example/sweater/controller/MainController.java,0\a\0ae0a0dbe53b38979247486761f67e24474a062b
+e
+5src/main/java/com/example/sweater/repos/UserRepo.java,7\8\789dd6c8ef54070d85d30ed71d69a90c52765a43
+;
+sweater.iml,e\6\e6a4a5df3097f701145ddfcc5adf51b460c368ba
+x
+Hsrc/main/java/com/example/sweater/controller/RegistrationController.java,e\2\e2383ae4b4b27dc27691a2a94b8f2b23fe39ec08

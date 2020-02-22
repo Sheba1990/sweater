@@ -34,3 +34,11 @@ j
 -src/main/resources/templates/parts/common.ftl,6\d\6dc23174836fbedaf210e28f5fd950ae311a54a7
 Y
 )src/main/resources/templates/greeting.ftl,d\4\d48b6be6793a6e2e3c4d84d10ed9ef03d41adcc3
+]
+-src/main/resources/templates/registration.ftl,8\e\8efff0fb3420fdc296aada2e20b07456d3dde525
+\
+,src/main/resources/templates/parts/login.ftl,5\3\53dff6f713f34b9500921f45f1f87b567d414180
+V
+&src/main/resources/templates/login.ftl,f\f\ff77418edee2ef0f4e5f9f984b651bb2888e11f9
+U
+%src/main/resources/templates/main.ftl,5\b\5b533d802895685b679da86670039a70d41f26f4

@@ -44,7 +44,7 @@ public class MainController {
 
         model.put("messages", messages);//И положили в модель для отображения
 
-        return "main";//Возвращает модель main.mustache из папки templates
+        return "main";//Возвращает модель main.ftl из папки templates
     }
 
     @PostMapping("filter")

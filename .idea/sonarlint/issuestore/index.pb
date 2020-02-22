@@ -5,12 +5,8 @@ b
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 e
 5src/main/java/com/example/sweater/domain/Message.java,d\d\dd24e93eac953750d6a68ea5e6b3682ae14f271e
-Z
-*src/main/resources/templates/main.mustache,1\7\17debea61cbf427fc33c30453de248e7767ec7f4
 h
 8src/main/java/com/example/sweater/repos/MessageRepo.java,8\f\8fcfb9bbff646a202c8e00fd31b2fd5d6541c959
-^
-.src/main/resources/templates/greeting.mustache,b\a\ba3c38c8b290d2fd3a6e91f26931252ca2f3c49d
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -22,10 +18,6 @@ b
 2src/main/java/com/example/sweater/domain/User.java,e\3\e3030c884107f97d6c93ba1f80d9b9a5b5db9c4a
 o
 ?src/main/java/com/example/sweater/config/WebSecurityConfig.java,8\c\8c2b5f64bdb0951e85d01cabb0d22e9a88c13d87
-[
-+src/main/resources/templates/login.mustache,9\d\9d5ed15d1b6da8366824ef171d3b2a00a2d5ec6e
-b
-2src/main/resources/templates/registration.mustache,1\d\1da0913b333ffbbaad4db5fce4086b27ac4e9517
 Y
 )src/main/resources/application.properties,0\6\06f65155ec73600b9fc5c4dc2883d4bb84d8e284
 p
@@ -38,3 +30,7 @@ x
 Hsrc/main/java/com/example/sweater/controller/RegistrationController.java,e\2\e2383ae4b4b27dc27691a2a94b8f2b23fe39ec08
 j
 :src/main/java/com/example/sweater/service/UserService.java,1\7\174708d8517a59ab57bf70de28a417e30836ae6a
+]
+-src/main/resources/templates/parts/common.ftl,6\d\6dc23174836fbedaf210e28f5fd950ae311a54a7
+Y
+)src/main/resources/templates/greeting.ftl,d\4\d48b6be6793a6e2e3c4d84d10ed9ef03d41adcc3

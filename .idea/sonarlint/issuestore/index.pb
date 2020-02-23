@@ -42,3 +42,9 @@ V
 &src/main/resources/templates/login.ftl,f\f\ff77418edee2ef0f4e5f9f984b651bb2888e11f9
 U
 %src/main/resources/templates/main.ftl,5\b\5b533d802895685b679da86670039a70d41f26f4
+Y
+)src/main/resources/templates/userEdit.ftl,4\7\4732831421c2c7b9dbda1b79907f76ff3c5d92a2
+Y
+)src/main/resources/templates/userList.ftl,0\f\0f16b5cc6eaa4714e6becb0b50ec003192f3447f
+p
+@src/main/java/com/example/sweater/controller/UserController.java,3\c\3c6330352b98349fc8795e3a6f7b5e06c0ce5399

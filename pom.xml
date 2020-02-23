@@ -15,10 +15,12 @@
     </parent>
 
     <dependencies>
+        <!-- freemarker is used for a view -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
+
         <!-- security -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

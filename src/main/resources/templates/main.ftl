@@ -1,7 +1,8 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-<div class="form-row">
+
+<div class="form-row"><!-- это блок для строки поиска по сообщениям -->
     <div class="form-group col-md-6">
         <form method="get" action="/main" class="form-inline">
             <input type="text" name="filter" class="form-control" value="${filter?ifExists}" placeholder="Search by tag">
@@ -13,18 +14,18 @@
 </div>
 
 <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-    Add new message
+    Add new message<!-- это форма для ввода сообщения, которая автоматически открывается и закрывается -->
 </a>
 <div class="collapse" id="collapseExample">
-    <div class="form-group mt-3">
+    <div class="form-group mt-3"><!-- mt-3 добавляет отступ сверху -->
         <form method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <input type="text" class="form-control" name="text" placeholder="Введите сообщение"/>
+            <div class="form-group"><!-- данный блок разделяет каждую строчку на отдельную группу -->
+                <input type="text" class="form-control" name="text" placeholder="Add new message"/>
             </div>
-            <div class="form-group">
-                <input type="text" class="form-control" name="tag" placeholder="Тэг">
+            <div class="form-group"><!-- данный блок разделяет каждую строчку на отдельную группу -->
+                <input type="text" class="form-control" name="tag" placeholder="Tag">
             </div>
-            <div class="form-group">
+            <div class="form-group"><!-- данный блок разделяет каждую строчку на отдельную группу -->
                 <div class="custom-file"> <!-- блок для загрузки файла -->
                     <input type="file" name="file" id="customFile"> <!-- форма для загрузки файла -->
                     <label class="custom-file-label" for="customFile">
@@ -42,22 +43,23 @@
     </div>
 </div>
 
-<div class="card-columns">
+<div class="card-columns"><!-- этот блок распределяет все сообщения по всему экрану -->
     <#list messages as message>
-    <div class="card my-3">
+    <div class="card my-3"><!-- my-3 это отступ сверху и снизу в 3 единицы -->
         <#if message.filename??> <!-- условие: если в message есть поле filename -->
-        <img src="/img/${message.filename}" class="card-img-top"> <!-- то выводим -->
-    </#if>
-    <div class="m-2">
-        <span>${message.text}</span>
-        <i>${message.tag}</i>
+        <img src="/img/${message.filename}" class="card-img-top"> <!-- то выводим этот файл/картинку -->
+        </#if>
+        <div class="m-2"><!-- m-2 это отступ со всех 4-ч сторон -->
+            <span>${message.text}</span><!-- выводит текст сообщения -->
+            <i>${message.tag}</i><!-- выводит тэг -->
+        </div>
+        <div class="card-footer text-muted">
+            ${message.authorName}<!-- выводит имя пользователя -->
+        </div>
     </div>
-    <div class="card-footer text-muted">
-        ${message.authorName}
-    </div>
+    <#else>
+    No message
+    </#list>
 </div>
-<#else>
-No message
-</#list>
-</div>
+
 </@c.page>

@@ -3,23 +3,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sweater</title>
-    <link rel="stylesheet" href="/static/style.css"><!-- это ссылка/путь на css файл где указан шрифт -->
+    <title >Sweater</title>
+    <link rel="stylesheet" href="/static/style.css" class="text-primary"><!-- это ссылка/путь на css файл где указан шрифт -->
 
-    <!-- данный параметр анализирует размер дисплея устройства и масштабирует в соответствии с его разрешением -->
+    <!-- данный параметр анализирует размер дисплея устройства и масштабирует нитерфейс в соответствии с его разрешением -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- подулючаем Bootstrap CSS стили -->
+    <!-- подключаем Bootstrap CSS стили -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-<#include "navbar.ftl">
-<div class="container mt-4">
-<#nested>
+<#include "navbar.ftl"><!-- мы поместили панель навигации в шаблон common.ftl -->
+
+<div class="container mt-4"><!-- mt-4 это визуальный отступ контейнера -->
+    <!-- класс container помогает отцентрировать и горизонтально выровнять отображение контента -->
+    <#nested>
 </div>
 
-<!-- это блоки для подключения JavaScript -->
+<!-- ниже блоки для подключения JavaScript -->
 <!-- Optional JavaScript -->
+
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <!-- Popper.js -->

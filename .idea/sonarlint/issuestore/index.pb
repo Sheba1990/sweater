@@ -48,3 +48,7 @@ Y
 )src/main/resources/templates/userList.ftl,0\f\0f16b5cc6eaa4714e6becb0b50ec003192f3447f
 p
 @src/main/java/com/example/sweater/controller/UserController.java,3\c\3c6330352b98349fc8795e3a6f7b5e06c0ce5399
+S
+#src/main/resources/static/style.css,d\7\d7cd3eb23809040f014bfbd753927782c1bef960
+]
+-src/main/resources/templates/parts/navbar.ftl,b\9\b96e645ebb985c48d18a5c6dcdaaba5b9bede6e6

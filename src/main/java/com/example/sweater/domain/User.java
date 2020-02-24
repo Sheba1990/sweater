@@ -24,6 +24,10 @@ public class User implements UserDetails {
     @Enumerated(EnumType.STRING)//Означает что enum ROLE мы будеи хранить ввиде строки
     private Set<Role> roles;
 
+    public boolean isAdmin() {
+        return roles.contains(Role.ADMIN);
+    }
+
     public Long getId() {
         return id;
     }

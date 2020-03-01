@@ -18,8 +18,6 @@ b
 2src/main/java/com/example/sweater/domain/User.java,e\3\e3030c884107f97d6c93ba1f80d9b9a5b5db9c4a
 o
 ?src/main/java/com/example/sweater/config/WebSecurityConfig.java,8\c\8c2b5f64bdb0951e85d01cabb0d22e9a88c13d87
-Y
-)src/main/resources/application.properties,0\6\06f65155ec73600b9fc5c4dc2883d4bb84d8e284
 p
 @src/main/java/com/example/sweater/controller/MainController.java,0\a\0ae0a0dbe53b38979247486761f67e24474a062b
 e
@@ -36,8 +34,6 @@ Y
 )src/main/resources/templates/greeting.ftl,d\4\d48b6be6793a6e2e3c4d84d10ed9ef03d41adcc3
 ]
 -src/main/resources/templates/registration.ftl,8\e\8efff0fb3420fdc296aada2e20b07456d3dde525
-\
-,src/main/resources/templates/parts/login.ftl,5\3\53dff6f713f34b9500921f45f1f87b567d414180
 V
 &src/main/resources/templates/login.ftl,f\f\ff77418edee2ef0f4e5f9f984b651bb2888e11f9
 U
@@ -52,3 +48,9 @@ S
 #src/main/resources/static/style.css,d\7\d7cd3eb23809040f014bfbd753927782c1bef960
 ]
 -src/main/resources/templates/parts/navbar.ftl,b\9\b96e645ebb985c48d18a5c6dcdaaba5b9bede6e6
+_
+/src/main/resources/templates/parts/security.ftl,d\2\d25174b0c9cb60c71019f8a488115d6a3ac68c14
+i
+9src/main/java/com/example/sweater/service/MailSender.java,2\c\2c672984521c7029dec9c1d4159265eae2198b17
+h
+8src/main/java/com/example/sweater/config/MailConfig.java,a\6\a6810c67ca750f36789e8c46eae60e69f5099635

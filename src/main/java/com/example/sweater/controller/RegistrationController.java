@@ -1,6 +1,6 @@
 package com.example.sweater.controller;
 
-import com.example.sweater.domain.User;
+import com.example.sweater.entitites.User;
 import com.example.sweater.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,6 +13,7 @@ import java.util.Map;
 
 @Controller
 public class RegistrationController {
+
     @Autowired
     private UserService userService;
 

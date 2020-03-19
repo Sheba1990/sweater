@@ -1,9 +1,9 @@
 package com.example.sweater.controller;
 
 
-import com.example.sweater.domain.Message;
-import com.example.sweater.domain.User;
-import com.example.sweater.repos.MessageRepo;
+import com.example.sweater.entitites.Message;
+import com.example.sweater.entitites.User;
+import com.example.sweater.dao.MessageDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -19,13 +19,13 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.UUID;
 
-@Controller//Это контроллер который управляет всеми CRUD операциями с базами данных
+@Controller
 public class MainController {
 
     @Autowired
-    private MessageRepo messageRepo;
+    private MessageDao messageDao;
 
-    @Value("${upload.path}")//Обращается в property к строчке с u[load.path
+    @Value("${upload.path}")//Обращается в property к строчке с upload.path
     private String uploadPath;
 
     @GetMapping("/")
@@ -36,12 +36,12 @@ public class MainController {
     @GetMapping("/main")//Эта аннотация необходима для получения из баз данных
     public String main(@RequestParam(required = false, defaultValue = "") String filter, Model model) {
 
-        Iterable<Message> messages = messageRepo.findAll();
+        Iterable<Message> messages = messageDao.findAll();
 
         if (filter != null && !filter.isEmpty()) {
-            messages = messageRepo.findByTag(filter);
+            messages = messageDao.findByTag(filter);
         } else {
-            messages = messageRepo.findAll();
+            messages = messageDao.findAll();
         }
         model.addAttribute("messages", messages);
         model.addAttribute("filter", filter);
@@ -85,9 +85,9 @@ public class MainController {
             message.setFilename(resultFileName);
         }
 
-        messageRepo.save(message);//Сохраняем его
+        messageDao.save(message);//Сохраняем его
 
-        Iterable<Message> messages = messageRepo.findAll();//Взяли его из репозитория
+        Iterable<Message> messages = messageDao.findAll();//Взяли его из репозитория
 
         model.put("messages", messages);//И положили в модель для отображения
 

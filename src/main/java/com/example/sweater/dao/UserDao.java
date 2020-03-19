@@ -1,9 +1,9 @@
-package com.example.sweater.repos;
+package com.example.sweater.dao;
 
-import com.example.sweater.domain.User;
+import com.example.sweater.entitites.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepo extends JpaRepository<User, Long> {
+public interface UserDao extends JpaRepository<User, Long> {
 
     User findByUsername(String username);
 

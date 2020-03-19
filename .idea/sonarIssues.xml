@@ -13,6 +13,196 @@
             <set />
           </value>
         </entry>
+        <entry key="$MAVEN_REPOSITORY$/org/flywaydb/flyway-core/6.0.8/flyway-core-6.0.8.jar!/org/flywaydb/core/Flyway.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/java/com/cvdatabase/project/api/services/ICVService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/java/com/cvdatabase/project/controllers/CVController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/java/com/cvdatabase/project/controllers/MainController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/java/com/cvdatabase/project/controllers/PersonController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/java/com/cvdatabase/project/dao/CVDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/java/com/cvdatabase/project/dto/CVDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/java/com/cvdatabase/project/entities/ContactData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/java/com/cvdatabase/project/entities/Gender.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/java/com/cvdatabase/project/services/CVService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/java/com/cvdatabase/project/services/PersonService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/db/migration/V1__Init_DB.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/db/migration/V2__Add.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/migration/V1__Init_DB.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/static/style.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/common.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/common.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/fragments/header.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/greeting.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/home/home.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/home_page.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/listCVs.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/navbar.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/views/addPerson.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/views/cvs.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/views/new_person.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/views/persons.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../CVdatabase/src/main/resources/templates/views/personsByFirstName.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ProductManager/src/main/resources/templates/new_product.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../hotel-spring/src/main/java/com/hotel/spring/controllers/MainController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../hotel-spring/src/main/java/com/hotel/spring/controllers/RoomController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../hotel-spring/src/main/java/com/hotel/spring/entities/Booking.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../hotel-spring/src/main/resources/templates/fragments/header.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../hotel-spring/src/main/resources/templates/greeting.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../hotel-spring/src/main/resources/templates/greeting/greeting.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../hotel-spring/src/main/resources/templates/views/guests.html">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.git/info/exclude">
           <value>
             <set />
@@ -224,6 +414,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/templates/profile.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/templates/profile.ftl.html">
           <value>
             <set />
           </value>

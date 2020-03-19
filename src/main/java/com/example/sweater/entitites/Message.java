@@ -1,4 +1,4 @@
-package com.example.sweater.domain;
+package com.example.sweater.entitites;
 //Пакет domain это тоже самое что если бы пакет был бы назван entities
 
 import javax.persistence.*;

@@ -1,5 +1,5 @@
-<#include "security.ftl"><!-- включаем сюда шаблое security.ftl -->
-<#import "login.ftl" as l><!-- включаем сюда шаблое login.ftl -->
+<#include "security.ftl"><!-- включаем сюда шаблон security.ftl -->
+<#import "login.ftl" as l><!-- включаем сюда шаблон login.ftl -->
 
 <!-- это форма навигационной панели -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -10,7 +10,6 @@
             Sweater
         </div>
     </a>
-
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,10 +27,15 @@
                 <a class="nav-link" href="/user">User list</a><!-- это навигационная ссылка кнопки User list -->
             </li>
             </#if>
-        </ul>
-        <div class="navbar-text mr-3"><!-- этот блок добавляет текст с именем пользователя, mr-3 добавляет отступ справа -->
-            ${name}<!-- имя пользователя -->
-        </div>
-        <@l.logout /><!-- рядом с именем пользователя отображается кнопка Log Out -->
+            <#if user??><!-- если пользователь с правами ADMIN то у него есть доступ к списку пользователей -->
+            <li class="nav-item">
+                <a class="nav-link" href="/user/profile">Profile</a><!-- это навигационная ссылка кнопки User list -->
+            </li>
+            </#if>
+    </ul>
+    <div class="navbar-text mr-3"><!-- этот блок добавляет текст с именем пользователя, mr-3 добавляет отступ справа -->
+        ${name}<!-- имя пользователя -->
+    </div>
+    <@l.logout /><!-- рядом с именем пользователя отображается кнопка Log Out -->
     </div>
 </nav>

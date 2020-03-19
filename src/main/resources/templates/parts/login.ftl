@@ -5,7 +5,15 @@
             User Name:
         </label>
         <div class="col-sm-6"><!-- col-sm-6 указывает ширину для поля ввода в 6 колонок -->
-            <input type="text" name="username" class="form-control" placeholder="User Name"/>
+            <input type="text"
+                   name="username" value="<#if user??>${user.username}</#if>"
+                   class="form-control ${(usernameError??)?string('is-invalid', '')}"
+                   placeholder="User Name"/>
+            <#if usernameError??>
+            <div class="invalid-feedback">
+                ${usernameError}
+            </div>
+            </#if>
         </div>
     </div>
 
@@ -14,17 +22,49 @@
             Password:
         </label>
         <div class="col-sm-6"><!-- col-sm-6 указывает ширину для поля ввода в 6 колонок -->
-            <input type="password" name="password" class="form-control" placeholder="Password"/>
+            <input type="password"
+                   name="password"
+                   class="form-control ${(passwordError??)?string('is-invalid', '')}"
+                   placeholder="Password"/>
+            <#if passwordError??>
+            <div class="invalid-feedback">
+                ${passwordError}
+            </div>
+            </#if>
         </div>
     </div>
 
     <#if isRegisterForm><!-- условие: если это форма регистрации, то надо ещё вводить email для регистрации -->
     <div class="form-group row"><!-- блок с формой группы и отдельная строка -->
         <label class="col-sm-2 col-form-label"><!-- col-sm-2 col-form-label указывает ширину поля в 2 колонки -->
+            Password:
+        </label>
+        <div class="col-sm-6"><!-- col-sm-6 указывает ширину для поля ввода в 6 колонок -->
+            <input type="password"
+                   name="password2"
+                   class="form-control ${(password2Error??)?string('is-invalid', '')}"
+                   placeholder="Retype password"/>
+            <#if password2Error??>
+            <div class="invalid-feedback">
+                ${password2Error}
+            </div>
+            </#if>
+        </div>
+    </div>
+    <div class="form-group row"><!-- блок с формой группы и отдельная строка -->
+        <label class="col-sm-2 col-form-label"><!-- col-sm-2 col-form-label указывает ширину поля в 2 колонки -->
             Email:
         </label>
         <div class="col-sm-6"><!-- col-sm-6 указывает ширину для поля ввода в 6 колонок -->
-            <input type="email" name="email" class="form-control" placeholder="some@some.com"/>
+            <input type="email"
+                   name="email" value="<#if user??>${user.email}</#if>"
+                   class="form-control ${(emailError??)?string('is-invalid', '')}"
+                   placeholder="some@some.com"/>
+            <#if emailError??>
+            <div class="invalid-feedback">
+                ${emailError}
+            </div>
+            </#if>
         </div>
     </div>
     </#if>
